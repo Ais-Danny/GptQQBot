@@ -7,7 +7,7 @@
 <br>
 ## 快速启动
 
-1. 前往 [releases](https://github.com/Ais-Danny/GptQQBot/releases) 下载对应平台的可执行文件。
+1. 前往 [releases](https://github.com/Ais-Danny/GptQQBot/releases/tag/V1.0.0) 下载对应平台的可执行文件。
 2. 运行可执行文件。
 3. 聊天时，私聊会直接回答，群聊需要at机器人。
 4. 命令系统：内置的命令系统可以更改设置。具体命令帮助可以在聊天中发送 `/help` 获得解释
