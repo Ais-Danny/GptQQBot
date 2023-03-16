@@ -1,4 +1,12 @@
 # GptQQBot
+
+#使用方法
+1. nodejs环境运行
+- 下载Releases中app.js 直接运行
+ ```cmd
+ node app.js
+```
+
 **暂时密码登录仅支持Mac电脑协议登录，扫码登录全平台正常使用。**
  - 增加了日志获取命令。
 
