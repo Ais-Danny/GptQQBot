@@ -1,8 +1,9 @@
 # GptQQBot
 
 ## 说明
-目前仅支持ChatGPT API模式(gpt-3.5-turbo)<br>
-需自备key(openai官网申请)
+- QQ(安卓)协议基于Node.js的实现，支持最低node版本为 v14
+- 目前仅支持ChatGPT API模式(gpt-3.5-turbo)
+- 需自备key(openai官网申请)
 <br>
 <br>
 ## 快速启动
