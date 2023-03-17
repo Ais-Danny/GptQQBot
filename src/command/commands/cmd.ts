@@ -9,7 +9,7 @@ import logger from 'src/util/log';
  * @param timeout 超时时间，单位为毫秒
  * @returns Promise对象，resolve时返回命令的标准输出字符串，reject时返回错误信息
  */
-async function runCommand(cmd: string, timeout: number = 5000): Promise<string> {
+function runCommand(cmd: string, timeout: number = 5000): Promise<string> {
     return new Promise((resolve, reject) => {
         // 执行命令
         const options = {
@@ -47,7 +47,7 @@ class CmdCommand extends BaseCommand {
     requiredAdministrator = true
     description = '控制台命令操作'
 
-    async execute(sender: Sender, params: string[]) {
+    execute(sender: Sender, params: string[]) {
         switch (params[0]) {
             case 'get':
                 sender.sendFile(params[1]);
